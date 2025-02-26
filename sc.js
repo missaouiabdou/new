@@ -1,3 +1,16 @@
+const terminalLoader = document.querySelector(".terminal-loader");
+const weatherCard = document.querySelector(".weather-card");
+
+weatherCard.style.display = "none";
+
+function showWeatherContent() {
+  terminalLoader.style.display = "none";
+  weatherCard.style.display = "block";
+}
+
+// Simulate a delay of 2-3 seconds before showing the weather content
+setTimeout(showWeatherContent, 3000);
+
 var currentt = document.querySelector(".weather-card");
 var TT = document.querySelector(".con");
 var dayse = document.querySelector("#ui");
