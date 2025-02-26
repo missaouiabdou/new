@@ -9,7 +9,7 @@ function showWeatherContent() {
 }
 
 // Simulate a delay of 2-3 seconds before showing the weather content
-setTimeout(showWeatherContent, 3000);
+setTimeout(showWeatherContent, 7000);
 
 var currentt = document.querySelector(".weather-card");
 var TT = document.querySelector(".con");
