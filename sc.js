@@ -59,7 +59,7 @@ function showError(error) {
 }
 
 function getWeatherByLocation(lat, lon) {
-    const url = `https://api.weatherapi.com/v1/forecast.json?key=${api}&q=${lat},${lon}&days=6&aqi=no&alerts=no`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=${api}&q=${lat},${lon}&days=7&aqi=no&alerts=no`;
 
     fetch(url)
         .then(response => response.json())
