@@ -16,7 +16,7 @@ var TT = document.querySelector(".con");
 var dayse = document.querySelector("#ui");
 var sunset = document.querySelector(".ft");
 var loc = document.querySelector(".location");
-const api = "e5074ebaf73940d0b5a182828252302";
+const api = "4b9129337c0945d39e3120111250903";
 
 const weathercode = {
     clear: [1000],
